@@ -1,0 +1,17 @@
+{
+  "name": "L kitchen",
+  "shape": "L",
+  "ceiling_height_in": 96,
+  "photo_observations": "Window on the back wall. Left wall is a return with no openings.",
+  "walls": [
+    {"id": "left", "length_in": 96, "openings": []},
+    {
+      "id": "back",
+      "length_in": 132,
+      "openings": [
+        {"kind": "window", "offset_in": 70, "width_in": 36, "sill_in": 42, "height_in": 36}
+      ]
+    }
+  ],
+  "preferences": {"appliance_wall": "back", "wall_height_in": 30}
+}

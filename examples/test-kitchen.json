@@ -1,0 +1,27 @@
+{
+  "name": "Test kitchen",
+  "shape": "straight",
+  "ceiling_height_in": 96,
+  "floor_color": "#c4a574",
+  "wall_color": "#f3f0ea",
+  "surround_color": "#d7cfc4",
+  "photo_observations": "One 12 foot cooking wall. A 36 inch window sits over the sink, sill at 42 inches. No door on this wall. Ceiling is 8 feet.",
+  "walls": [
+    {
+      "id": "back",
+      "length_in": 144,
+      "openings": [
+        {"kind": "window", "offset_in": 48, "width_in": 36, "sill_in": 42, "height_in": 36}
+      ]
+    }
+  ],
+  "preferences": {
+    "wall_height_in": 30,
+    "fridge_style": "french-door",
+    "fridge_width_in": 36,
+    "range_width_in": 30,
+    "finish": "stainless",
+    "vent": "hood",
+    "faucet": "pull-down"
+  }
+}

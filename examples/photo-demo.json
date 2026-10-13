@@ -1,0 +1,31 @@
+{
+  "name": "Photo demo",
+  "shape": "L",
+  "ceiling_height_in": 96,
+  "image_path": "/Users/michelchatmajian/Crap/kitchen-designer/examples/photo-demo.jpg",
+  "photo_observations": "L kitchen read from the photo. Window wall, open end to the corner: French-door refrigerator, a base cabinet, farmhouse sink centered under a double-hung window, dishwasher, then the corner. The 30 inch range and hood sit on the return in the photo; this planner keeps the cooking line on the window wall, so that range is placed at the end of the window run. Return wall is cabinet storage. Oak floor, warm off-white walls, pale ceiling. No door on these two walls.",
+  "walls": [
+    {
+      "id": "window",
+      "length_in": 180,
+      "openings": [
+        {"kind": "window", "offset_in": 52, "width_in": 36, "sill_in": 42, "height_in": 40}
+      ]
+    },
+    {
+      "id": "return",
+      "length_in": 96,
+      "openings": []
+    }
+  ],
+  "preferences": {
+    "appliance_wall": "window",
+    "wall_height_in": 30,
+    "fridge_style": "french-door",
+    "fridge_width_in": 36,
+    "range_width_in": 30,
+    "finish": "stainless",
+    "vent": "hood",
+    "faucet": "pull-down"
+  }
+}

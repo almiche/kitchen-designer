@@ -1,0 +1,26 @@
+{
+  "note": "Schematic bodies at published opening sizes. These are not manufacturer meshes. Finishes are stainless, white, and black.",
+  "finishes": ["stainless", "white", "black"],
+  "models": [
+    {"id": "fridge-french-36", "role": "fridge", "style": "french-door", "width_in": 36, "height_in": 70, "depth_in": 30, "name": "French-door refrigerator, 36 in", "examples": "Counter-depth French door class, in the size of an LG LF29 or GE Profile 36 in."},
+    {"id": "fridge-french-30", "role": "fridge", "style": "french-door", "width_in": 30, "height_in": 70, "depth_in": 30, "name": "French-door refrigerator, 30 in", "examples": "GE GNE21 class, about 30 in wide."},
+    {"id": "fridge-top-30", "role": "fridge", "style": "top-freezer", "width_in": 30, "height_in": 67, "depth_in": 30, "name": "Top-freezer refrigerator, 30 in", "examples": "Frigidaire FRTD2021 and GE GTE19 class, freezer above the fridge."},
+    {"id": "fridge-top-28", "role": "fridge", "style": "top-freezer", "width_in": 28, "height_in": 66, "depth_in": 30, "name": "Top-freezer refrigerator, 28 in", "examples": "Narrow top-freezer class, freezer above the fridge."},
+
+    {"id": "range-28", "role": "range", "width_in": 28, "height_in": 36, "depth_in": 26, "name": "Range, 28 in", "examples": "Compact 28 in slide-in opening."},
+    {"id": "range-30", "role": "range", "width_in": 30, "height_in": 36, "depth_in": 26, "name": "Range, 30 in", "examples": "GE Profile and Whirlpool 30 in freestanding class."},
+    {"id": "range-36", "role": "range", "width_in": 36, "height_in": 36, "depth_in": 26, "name": "Range, 36 in", "examples": "GE Café and KitchenAid 36 in class."},
+
+    {"id": "dishwasher-24", "role": "dishwasher", "width_in": 24, "height_in": 34.5, "depth_in": 24, "name": "Dishwasher, 24 in", "examples": "Bosch 800 and Whirlpool 24 in class."},
+
+    {"id": "hood-30", "role": "hood", "width_in": 30, "height_in": 8, "depth_in": 20, "name": "Under-cabinet hood, 30 in", "examples": "30 in under-cabinet hood. The body is sized to the range."},
+    {"id": "hood-36", "role": "hood", "width_in": 36, "height_in": 8, "depth_in": 20, "name": "Under-cabinet hood, 36 in", "examples": "36 in under-cabinet hood. The body is sized to the range."},
+
+    {"id": "microwave-otr-30", "role": "microwave", "mount": "otr", "width_in": 30, "height_in": 17, "depth_in": 16, "name": "Over-the-range microwave, 30 in", "examples": "30 in microwave that mounts in place of the hood."},
+    {"id": "microwave-counter", "role": "microwave", "mount": "counter", "width_in": 22, "height_in": 13, "depth_in": 16, "name": "Countertop microwave", "examples": "About 22 in wide, sits on the counter."},
+
+    {"id": "faucet-pull-down", "role": "faucet", "style": "pull-down", "width_in": 2, "height_in": 16, "depth_in": 8, "name": "Pull-down kitchen faucet"},
+    {"id": "faucet-bridge", "role": "faucet", "style": "bridge", "width_in": 8, "height_in": 10, "depth_in": 8, "name": "Bridge kitchen faucet"},
+    {"id": "faucet-single", "role": "faucet", "style": "single", "width_in": 2, "height_in": 8, "depth_in": 6, "name": "Single-handle kitchen faucet"}
+  ]
+}

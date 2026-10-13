@@ -1,0 +1,16 @@
+{
+  "name": "Straight 12 ft",
+  "shape": "straight",
+  "ceiling_height_in": 96,
+  "photo_observations": "One window on the cooking wall. No door on this wall.",
+  "walls": [
+    {
+      "id": "back",
+      "length_in": 144,
+      "openings": [
+        {"kind": "window", "offset_in": 48, "width_in": 36, "sill_in": 42, "height_in": 36}
+      ]
+    }
+  ],
+  "preferences": {"wall_height_in": 30}
+}

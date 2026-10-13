@@ -1,0 +1,1972 @@
+{
+  "market": "ca",
+  "system": "SEKTION",
+  "currency": "CAD",
+  "as_of": "2026-10-13",
+  "source": "https://www.ikea.com/ca/en/",
+  "notes": [
+    "Prices and article numbers were read from ikea.com/ca on 2026-10-13. They change.",
+    "Frames, fronts, legs, rails, hinges, toe kicks, and cover panels are separate articles.",
+    "This catalog is a working subset: white frames, Canada door fronts for AXSTAD, VOXTORP, ENKÖPING, HAVSTORP, BODBYN, and LERHYTTAN, EKBACKEN white-marble-effect worktops, and the hardware those frames ask for. A chosen front is transferred onto every cabinet frame. Door colors in the model are original schematic textures. A published color chip is named when IKEA.ca returned one.",
+    "Interior fittings, sinks, appliances, lighting, and deco strips are not in the purchase list.",
+    "Filler strips are cut from FÖRBÄTTRA cover panels. A door cabinet keeps 2 inches clear of a wall. A refrigerator keeps 4 inches clear of a wall. Drawer cabinets would keep 1 inch; this planner has no drawer cabinets yet.",
+    "EKBACKEN rows on the search page publish length and thickness. The model uses a 25 5/8 inch worktop depth, which is the usual depth of that worktop, and the packet says so.",
+    "The corner base frame is 38 inches along the wall and about 38 inches on the return. The corner wall frame is 26 inches on each run. Both figures come from the Canada product pages.",
+    "Cabinet boxes in the GLB are original schematic geometry at these published sizes."
+  ],
+  "constants": {
+    "leg_height_in": 4.5,
+    "counter_thickness_in": 1.125,
+    "counter_depth_in": 25.625,
+    "wall_gap_above_counter_in": 18,
+    "base_frame_height_in": 30,
+    "base_frame_depth_in": 24,
+    "wall_frame_depth_in": 14.75,
+    "corner_base_span_in": 38,
+    "corner_wall_span_in": 26,
+    "fridge_width_in": 36,
+    "fridge_height_in": 70,
+    "fridge_depth_in": 30,
+    "range_width_in": 30,
+    "range_height_in": 36,
+    "range_depth_in": 26,
+    "dishwasher_width_in": 24,
+    "filler_warn_in": 3,
+    "filler_door_in": 2,
+    "filler_drawer_in": 1,
+    "filler_fridge_in": 4,
+    "filler_thickness_in": 0.75
+  },
+  "fronts": [
+    {
+      "id": "axstad-white",
+      "name": "AXSTAD matt white",
+      "look": "shaker",
+      "surface": "paint",
+      "metal": 0.02,
+      "rough": 0.34,
+      "color_note": "Published chip #ffffff. Raised panel."
+    },
+    {
+      "id": "axstad-gray-green",
+      "name": "AXSTAD gray-green",
+      "look": "shaker",
+      "surface": "paint",
+      "metal": 0.02,
+      "rough": 0.34,
+      "color": [
+        0.2314,
+        0.4902,
+        0.1333
+      ],
+      "color_hex": "#3b7d22",
+      "color_note": "Published chip #3b7d22. Raised panel."
+    },
+    {
+      "id": "voxtorp-matt-white",
+      "name": "VOXTORP matt white",
+      "look": "flat",
+      "surface": "flat",
+      "metal": 0.02,
+      "rough": 0.55,
+      "color": [
+        0.97,
+        0.97,
+        0.96
+      ],
+      "color_hex": "#ffffff",
+      "color_note": "Published chip #ffffff. Flat matte slab."
+    },
+    {
+      "id": "voxtorp-gloss-dark",
+      "name": "VOXTORP high-gloss dark gray-brown",
+      "look": "gloss",
+      "surface": "gloss",
+      "metal": 0.15,
+      "rough": 0.12,
+      "color": [
+        0.5059,
+        0.2824,
+        0.1255
+      ],
+      "color_hex": "#814820",
+      "color_note": "Published chips #814820 and #949494. The model uses #814820. Flat gloss slab."
+    },
+    {
+      "id": "enkoeping-white-wood",
+      "name": "ENKÖPING white wood effect",
+      "look": "wood",
+      "surface": "wood",
+      "metal": 0.04,
+      "rough": 0.38,
+      "color": [
+        0.86,
+        0.8,
+        0.7
+      ],
+      "color_note": "Schematic light wood. The page chip is #ffffff, which does not describe the wood effect."
+    },
+    {
+      "id": "enkoeping-walnut",
+      "name": "ENKÖPING brown walnut effect",
+      "look": "wood",
+      "surface": "wood",
+      "metal": 0.04,
+      "rough": 0.4,
+      "color": [
+        0.5059,
+        0.2824,
+        0.1255
+      ],
+      "color_hex": "#814820",
+      "color_note": "Published chip #814820. Wood grain."
+    },
+    {
+      "id": "havstorp-light-gray",
+      "name": "HAVSTORP light gray",
+      "look": "flat",
+      "surface": "flat",
+      "metal": 0.02,
+      "rough": 0.58,
+      "color": [
+        0.5804,
+        0.5804,
+        0.5804
+      ],
+      "color_hex": "#949494",
+      "color_note": "Published chip #949494. Flat matte slab."
+    },
+    {
+      "id": "havstorp-deep-green",
+      "name": "HAVSTORP deep green",
+      "look": "flat",
+      "surface": "flat",
+      "metal": 0.02,
+      "rough": 0.58,
+      "color": [
+        0.2314,
+        0.4902,
+        0.1333
+      ],
+      "color_hex": "#3b7d22",
+      "color_note": "Published chip #3b7d22. Flat matte slab."
+    },
+    {
+      "id": "bodbyn-off-white",
+      "name": "BODBYN off-white",
+      "look": "shaker",
+      "surface": "paint",
+      "metal": 0.02,
+      "rough": 0.36,
+      "color": [
+        0.93,
+        0.89,
+        0.8
+      ],
+      "color_hex": "#ffffff",
+      "color_note": "Published chip #ffffff. The model is a warmer off-white so it reads apart from AXSTAD. Raised panel."
+    },
+    {
+      "id": "lerhyttan-black",
+      "name": "LERHYTTAN black stained",
+      "look": "wood-shaker",
+      "surface": "wood",
+      "metal": 0.06,
+      "rough": 0.42,
+      "color": [
+        0.2,
+        0.17,
+        0.14
+      ],
+      "color_hex": "#000000",
+      "color_note": "Published chip #000000. The model lifts it so the wood grain stays visible. Raised panel."
+    },
+    {
+      "id": "lerhyttan-blue",
+      "name": "LERHYTTAN blue",
+      "look": "wood-shaker",
+      "surface": "wood",
+      "metal": 0.05,
+      "rough": 0.4,
+      "color": [
+        0.0,
+        0.3451,
+        0.6392
+      ],
+      "color_hex": "#0058a3",
+      "color_note": "Published chip #0058a3. Raised panel."
+    }
+  ],
+  "articles": [
+    {
+      "article": "102.653.92",
+      "role": "base_frame",
+      "name": "SEKTION base cabinet frame, white",
+      "width_in": 12,
+      "depth_in": 24,
+      "height_in": 30,
+      "price_cad": 38,
+      "pack_qty": 1
+    },
+    {
+      "article": "002.653.97",
+      "role": "base_frame",
+      "name": "SEKTION base cabinet frame, white",
+      "width_in": 15,
+      "depth_in": 24,
+      "height_in": 30,
+      "price_cad": 43,
+      "pack_qty": 1
+    },
+    {
+      "article": "202.653.96",
+      "role": "base_frame",
+      "name": "SEKTION base cabinet frame, white",
+      "width_in": 18,
+      "depth_in": 24,
+      "height_in": 30,
+      "price_cad": 48,
+      "pack_qty": 1
+    },
+    {
+      "article": "902.653.88",
+      "role": "base_frame",
+      "name": "SEKTION base cabinet frame, white",
+      "width_in": 24,
+      "depth_in": 24,
+      "height_in": 30,
+      "price_cad": 63,
+      "pack_qty": 1
+    },
+    {
+      "article": "302.653.86",
+      "role": "base_frame",
+      "name": "SEKTION base cabinet frame, white",
+      "width_in": 30,
+      "depth_in": 24,
+      "height_in": 30,
+      "price_cad": 68,
+      "pack_qty": 1
+    },
+    {
+      "article": "802.653.98",
+      "role": "base_frame",
+      "name": "SEKTION base cabinet frame, white",
+      "width_in": 36,
+      "depth_in": 24,
+      "height_in": 30,
+      "price_cad": 73,
+      "pack_qty": 1
+    },
+    {
+      "article": "705.967.56",
+      "role": "corner_base_frame",
+      "name": "SEKTION base corner cabinet frame, white",
+      "width_in": 38,
+      "depth_in": 24,
+      "height_in": 30,
+      "span_in": 38,
+      "price_cad": 115,
+      "pack_qty": 1,
+      "door_width_in": 13
+    },
+    {
+      "article": "102.654.72",
+      "role": "wall_frame",
+      "name": "SEKTION wall cabinet frame, white",
+      "width_in": 12,
+      "depth_in": 14.75,
+      "height_in": 30,
+      "price_cad": 31,
+      "pack_qty": 1
+    },
+    {
+      "article": "902.654.54",
+      "role": "wall_frame",
+      "name": "SEKTION wall cabinet frame, white",
+      "width_in": 15,
+      "depth_in": 14.75,
+      "height_in": 30,
+      "price_cad": 39,
+      "pack_qty": 1
+    },
+    {
+      "article": "802.654.64",
+      "role": "wall_frame",
+      "name": "SEKTION wall cabinet frame, white",
+      "width_in": 18,
+      "depth_in": 14.75,
+      "height_in": 30,
+      "price_cad": 45,
+      "pack_qty": 1
+    },
+    {
+      "article": "702.654.50",
+      "role": "wall_frame",
+      "name": "SEKTION wall cabinet frame, white",
+      "width_in": 24,
+      "depth_in": 14.75,
+      "height_in": 30,
+      "price_cad": 51,
+      "pack_qty": 1
+    },
+    {
+      "article": "702.654.69",
+      "role": "wall_frame",
+      "name": "SEKTION wall cabinet frame, white",
+      "width_in": 30,
+      "depth_in": 14.75,
+      "height_in": 30,
+      "price_cad": 56,
+      "pack_qty": 1
+    },
+    {
+      "article": "902.654.49",
+      "role": "wall_frame",
+      "name": "SEKTION wall cabinet frame, white",
+      "width_in": 36,
+      "depth_in": 14.75,
+      "height_in": 30,
+      "price_cad": 66,
+      "pack_qty": 1
+    },
+    {
+      "article": "802.654.59",
+      "role": "wall_frame",
+      "name": "SEKTION wall cabinet frame, white",
+      "width_in": 15,
+      "depth_in": 14.75,
+      "height_in": 20,
+      "price_cad": 37,
+      "pack_qty": 1
+    },
+    {
+      "article": "502.654.65",
+      "role": "wall_frame",
+      "name": "SEKTION wall cabinet frame, white",
+      "width_in": 18,
+      "depth_in": 14.75,
+      "height_in": 20,
+      "price_cad": 42,
+      "pack_qty": 1
+    },
+    {
+      "article": "202.654.57",
+      "role": "wall_frame",
+      "name": "SEKTION wall cabinet frame, white",
+      "width_in": 24,
+      "depth_in": 14.75,
+      "height_in": 20,
+      "price_cad": 48,
+      "pack_qty": 1
+    },
+    {
+      "article": "102.654.53",
+      "role": "wall_frame",
+      "name": "SEKTION wall cabinet frame, white",
+      "width_in": 30,
+      "depth_in": 14.75,
+      "height_in": 20,
+      "price_cad": 53,
+      "pack_qty": 1
+    },
+    {
+      "article": "302.654.71",
+      "role": "wall_frame",
+      "name": "SEKTION wall cabinet frame, white",
+      "width_in": 36,
+      "depth_in": 14.75,
+      "height_in": 20,
+      "price_cad": 58,
+      "pack_qty": 1
+    },
+    {
+      "article": "002.654.63",
+      "role": "wall_frame",
+      "name": "SEKTION wall cabinet frame, white",
+      "width_in": 15,
+      "depth_in": 14.75,
+      "height_in": 40,
+      "price_cad": 41,
+      "pack_qty": 1
+    },
+    {
+      "article": "002.654.58",
+      "role": "wall_frame",
+      "name": "SEKTION wall cabinet frame, white",
+      "width_in": 18,
+      "depth_in": 14.75,
+      "height_in": 40,
+      "price_cad": 51,
+      "pack_qty": 1
+    },
+    {
+      "article": "502.654.70",
+      "role": "wall_frame",
+      "name": "SEKTION wall cabinet frame, white",
+      "width_in": 24,
+      "depth_in": 14.75,
+      "height_in": 40,
+      "price_cad": 56,
+      "pack_qty": 1
+    },
+    {
+      "article": "902.654.68",
+      "role": "wall_frame",
+      "name": "SEKTION wall cabinet frame, white",
+      "width_in": 30,
+      "depth_in": 14.75,
+      "height_in": 40,
+      "price_cad": 61,
+      "pack_qty": 1
+    },
+    {
+      "article": "602.654.60",
+      "role": "wall_frame",
+      "name": "SEKTION wall cabinet frame, white",
+      "width_in": 36,
+      "depth_in": 14.75,
+      "height_in": 40,
+      "price_cad": 71,
+      "pack_qty": 1
+    },
+    {
+      "article": "802.655.05",
+      "role": "corner_wall_frame",
+      "name": "SEKTION corner wall cabinet frame, white",
+      "width_in": 26,
+      "depth_in": 14.75,
+      "height_in": 20,
+      "span_in": 26,
+      "price_cad": 90,
+      "pack_qty": 1
+    },
+    {
+      "article": "102.655.04",
+      "role": "corner_wall_frame",
+      "name": "SEKTION corner wall cabinet frame, white",
+      "width_in": 26,
+      "depth_in": 14.75,
+      "height_in": 30,
+      "span_in": 26,
+      "price_cad": 95,
+      "pack_qty": 1
+    },
+    {
+      "article": "302.655.03",
+      "role": "corner_wall_frame",
+      "name": "SEKTION corner wall cabinet frame, white",
+      "width_in": 26,
+      "depth_in": 14.75,
+      "height_in": 40,
+      "span_in": 26,
+      "price_cad": 100,
+      "pack_qty": 1
+    },
+    {
+      "article": "104.260.45",
+      "role": "door",
+      "name": "AXSTAD door, white",
+      "width_in": 12,
+      "height_in": 30,
+      "price_cad": 50,
+      "pack_qty": 1,
+      "style": "axstad-white"
+    },
+    {
+      "article": "304.260.49",
+      "role": "door",
+      "name": "AXSTAD door, white",
+      "width_in": 15,
+      "height_in": 30,
+      "price_cad": 59,
+      "pack_qty": 1,
+      "style": "axstad-white"
+    },
+    {
+      "article": "004.260.55",
+      "role": "door",
+      "name": "AXSTAD door, white",
+      "width_in": 18,
+      "height_in": 30,
+      "price_cad": 70,
+      "pack_qty": 1,
+      "style": "axstad-white"
+    },
+    {
+      "article": "004.260.79",
+      "role": "door",
+      "name": "AXSTAD door, white",
+      "width_in": 24,
+      "height_in": 30,
+      "price_cad": 82,
+      "pack_qty": 1,
+      "style": "axstad-white"
+    },
+    {
+      "article": "504.260.48",
+      "role": "door",
+      "name": "AXSTAD door, white",
+      "width_in": 15,
+      "height_in": 20,
+      "price_cad": 38,
+      "pack_qty": 1,
+      "style": "axstad-white"
+    },
+    {
+      "article": "304.260.54",
+      "role": "door",
+      "name": "AXSTAD door, white",
+      "width_in": 18,
+      "height_in": 20,
+      "price_cad": 41,
+      "pack_qty": 1,
+      "style": "axstad-white"
+    },
+    {
+      "article": "904.260.46",
+      "role": "door",
+      "name": "AXSTAD door, white",
+      "width_in": 12,
+      "height_in": 40,
+      "price_cad": 61,
+      "pack_qty": 1,
+      "style": "axstad-white"
+    },
+    {
+      "article": "104.260.50",
+      "role": "door",
+      "name": "AXSTAD door, white",
+      "width_in": 15,
+      "height_in": 40,
+      "price_cad": 77,
+      "pack_qty": 1,
+      "style": "axstad-white"
+    },
+    {
+      "article": "804.260.56",
+      "role": "door",
+      "name": "AXSTAD door, white",
+      "width_in": 18,
+      "height_in": 40,
+      "price_cad": 91,
+      "pack_qty": 1,
+      "style": "axstad-white"
+    },
+    {
+      "article": "804.260.80",
+      "role": "door",
+      "name": "AXSTAD door, white",
+      "width_in": 24,
+      "height_in": 40,
+      "price_cad": 105,
+      "pack_qty": 1,
+      "style": "axstad-white"
+    },
+    {
+      "article": "204.260.78",
+      "role": "door",
+      "name": "AXSTAD door, white",
+      "width_in": 24,
+      "height_in": 20,
+      "price_cad": 59,
+      "pack_qty": 1,
+      "style": "axstad-white"
+    },
+    {
+      "article": "504.260.53",
+      "role": "door",
+      "name": "AXSTAD door, white",
+      "width_in": 18,
+      "height_in": 15,
+      "price_cad": 38,
+      "pack_qty": 1,
+      "style": "axstad-white"
+    },
+    {
+      "article": "305.639.27",
+      "role": "door",
+      "name": "AXSTAD door, gray-green",
+      "width_in": 12,
+      "height_in": 30,
+      "price_cad": 50,
+      "pack_qty": 1,
+      "style": "axstad-gray-green"
+    },
+    {
+      "article": "505.639.31",
+      "role": "door",
+      "name": "AXSTAD door, gray-green",
+      "width_in": 15,
+      "height_in": 30,
+      "price_cad": 59,
+      "pack_qty": 1,
+      "style": "axstad-gray-green"
+    },
+    {
+      "article": "205.639.37",
+      "role": "door",
+      "name": "AXSTAD door, gray-green",
+      "width_in": 18,
+      "height_in": 30,
+      "price_cad": 70,
+      "pack_qty": 1,
+      "style": "axstad-gray-green"
+    },
+    {
+      "article": "305.639.46",
+      "role": "door",
+      "name": "AXSTAD door, gray-green",
+      "width_in": 24,
+      "height_in": 30,
+      "price_cad": 82,
+      "pack_qty": 1,
+      "style": "axstad-gray-green"
+    },
+    {
+      "article": "705.639.30",
+      "role": "door",
+      "name": "AXSTAD door, gray-green",
+      "width_in": 15,
+      "height_in": 20,
+      "price_cad": 38,
+      "pack_qty": 1,
+      "style": "axstad-gray-green"
+    },
+    {
+      "article": "405.639.36",
+      "role": "door",
+      "name": "AXSTAD door, gray-green",
+      "width_in": 18,
+      "height_in": 20,
+      "price_cad": 41,
+      "pack_qty": 1,
+      "style": "axstad-gray-green"
+    },
+    {
+      "article": "505.639.45",
+      "role": "door",
+      "name": "AXSTAD door, gray-green",
+      "width_in": 24,
+      "height_in": 20,
+      "price_cad": 59,
+      "pack_qty": 1,
+      "style": "axstad-gray-green"
+    },
+    {
+      "article": "105.639.28",
+      "role": "door",
+      "name": "AXSTAD door, gray-green",
+      "width_in": 12,
+      "height_in": 40,
+      "price_cad": 61,
+      "pack_qty": 1,
+      "style": "axstad-gray-green"
+    },
+    {
+      "article": "305.639.32",
+      "role": "door",
+      "name": "AXSTAD door, gray-green",
+      "width_in": 15,
+      "height_in": 40,
+      "price_cad": 77,
+      "pack_qty": 1,
+      "style": "axstad-gray-green"
+    },
+    {
+      "article": "005.639.38",
+      "role": "door",
+      "name": "AXSTAD door, gray-green",
+      "width_in": 18,
+      "height_in": 40,
+      "price_cad": 91,
+      "pack_qty": 1,
+      "style": "axstad-gray-green"
+    },
+    {
+      "article": "105.639.47",
+      "role": "door",
+      "name": "AXSTAD door, gray-green",
+      "width_in": 24,
+      "height_in": 40,
+      "price_cad": 105,
+      "pack_qty": 1,
+      "style": "axstad-gray-green"
+    },
+    {
+      "article": "902.733.12",
+      "role": "door",
+      "name": "VOXTORP door, matt white",
+      "width_in": 12,
+      "height_in": 30,
+      "price_cad": 50,
+      "pack_qty": 1,
+      "style": "voxtorp-matt-white"
+    },
+    {
+      "article": "002.733.16",
+      "role": "door",
+      "name": "VOXTORP door, matt white",
+      "width_in": 15,
+      "height_in": 30,
+      "price_cad": 59,
+      "pack_qty": 1,
+      "style": "voxtorp-matt-white"
+    },
+    {
+      "article": "802.733.22",
+      "role": "door",
+      "name": "VOXTORP door, matt white",
+      "width_in": 18,
+      "height_in": 30,
+      "price_cad": 70,
+      "pack_qty": 1,
+      "style": "voxtorp-matt-white"
+    },
+    {
+      "article": "102.733.30",
+      "role": "door",
+      "name": "VOXTORP door, matt white",
+      "width_in": 24,
+      "height_in": 30,
+      "price_cad": 82,
+      "pack_qty": 1,
+      "style": "voxtorp-matt-white"
+    },
+    {
+      "article": "202.733.15",
+      "role": "door",
+      "name": "VOXTORP door, matt white",
+      "width_in": 15,
+      "height_in": 20,
+      "price_cad": 38,
+      "pack_qty": 1,
+      "style": "voxtorp-matt-white"
+    },
+    {
+      "article": "002.733.21",
+      "role": "door",
+      "name": "VOXTORP door, matt white",
+      "width_in": 18,
+      "height_in": 20,
+      "price_cad": 41,
+      "pack_qty": 1,
+      "style": "voxtorp-matt-white"
+    },
+    {
+      "article": "302.733.29",
+      "role": "door",
+      "name": "VOXTORP door, matt white",
+      "width_in": 24,
+      "height_in": 20,
+      "price_cad": 59,
+      "pack_qty": 1,
+      "style": "voxtorp-matt-white"
+    },
+    {
+      "article": "702.733.13",
+      "role": "door",
+      "name": "VOXTORP door, matt white",
+      "width_in": 12,
+      "height_in": 40,
+      "price_cad": 61,
+      "pack_qty": 1,
+      "style": "voxtorp-matt-white"
+    },
+    {
+      "article": "802.733.17",
+      "role": "door",
+      "name": "VOXTORP door, matt white",
+      "width_in": 15,
+      "height_in": 40,
+      "price_cad": 77,
+      "pack_qty": 1,
+      "style": "voxtorp-matt-white"
+    },
+    {
+      "article": "602.733.23",
+      "role": "door",
+      "name": "VOXTORP door, matt white",
+      "width_in": 18,
+      "height_in": 40,
+      "price_cad": 91,
+      "pack_qty": 1,
+      "style": "voxtorp-matt-white"
+    },
+    {
+      "article": "902.733.31",
+      "role": "door",
+      "name": "VOXTORP door, matt white",
+      "width_in": 24,
+      "height_in": 40,
+      "price_cad": 105,
+      "pack_qty": 1,
+      "style": "voxtorp-matt-white"
+    },
+    {
+      "article": "506.017.30",
+      "role": "door",
+      "name": "VOXTORP door, high-gloss dark gray-brown",
+      "width_in": 12,
+      "height_in": 30,
+      "price_cad": 50,
+      "pack_qty": 1,
+      "style": "voxtorp-gloss-dark"
+    },
+    {
+      "article": "706.017.34",
+      "role": "door",
+      "name": "VOXTORP door, high-gloss dark gray-brown",
+      "width_in": 15,
+      "height_in": 30,
+      "price_cad": 59,
+      "pack_qty": 1,
+      "style": "voxtorp-gloss-dark"
+    },
+    {
+      "article": "406.017.40",
+      "role": "door",
+      "name": "VOXTORP door, high-gloss dark gray-brown",
+      "width_in": 18,
+      "height_in": 30,
+      "price_cad": 70,
+      "pack_qty": 1,
+      "style": "voxtorp-gloss-dark"
+    },
+    {
+      "article": "906.017.47",
+      "role": "door",
+      "name": "VOXTORP door, high-gloss dark gray-brown",
+      "width_in": 24,
+      "height_in": 30,
+      "price_cad": 82,
+      "pack_qty": 1,
+      "style": "voxtorp-gloss-dark"
+    },
+    {
+      "article": "906.017.33",
+      "role": "door",
+      "name": "VOXTORP door, high-gloss dark gray-brown",
+      "width_in": 15,
+      "height_in": 20,
+      "price_cad": 38,
+      "pack_qty": 1,
+      "style": "voxtorp-gloss-dark"
+    },
+    {
+      "article": "606.017.39",
+      "role": "door",
+      "name": "VOXTORP door, high-gloss dark gray-brown",
+      "width_in": 18,
+      "height_in": 20,
+      "price_cad": 41,
+      "pack_qty": 1,
+      "style": "voxtorp-gloss-dark"
+    },
+    {
+      "article": "106.017.46",
+      "role": "door",
+      "name": "VOXTORP door, high-gloss dark gray-brown",
+      "width_in": 24,
+      "height_in": 20,
+      "price_cad": 59,
+      "pack_qty": 1,
+      "style": "voxtorp-gloss-dark"
+    },
+    {
+      "article": "306.017.31",
+      "role": "door",
+      "name": "VOXTORP door, high-gloss dark gray-brown",
+      "width_in": 12,
+      "height_in": 40,
+      "price_cad": 61,
+      "pack_qty": 1,
+      "style": "voxtorp-gloss-dark"
+    },
+    {
+      "article": "406.017.35",
+      "role": "door",
+      "name": "VOXTORP door, high-gloss dark gray-brown",
+      "width_in": 15,
+      "height_in": 40,
+      "price_cad": 77,
+      "pack_qty": 1,
+      "style": "voxtorp-gloss-dark"
+    },
+    {
+      "article": "206.017.41",
+      "role": "door",
+      "name": "VOXTORP door, high-gloss dark gray-brown",
+      "width_in": 18,
+      "height_in": 40,
+      "price_cad": 91,
+      "pack_qty": 1,
+      "style": "voxtorp-gloss-dark"
+    },
+    {
+      "article": "706.017.48",
+      "role": "door",
+      "name": "VOXTORP door, high-gloss dark gray-brown",
+      "width_in": 24,
+      "height_in": 40,
+      "price_cad": 105,
+      "pack_qty": 1,
+      "style": "voxtorp-gloss-dark"
+    },
+    {
+      "article": "505.059.36",
+      "role": "door",
+      "name": "ENKÖPING door, white wood effect",
+      "width_in": 12,
+      "height_in": 30,
+      "price_cad": 28,
+      "pack_qty": 1,
+      "style": "enkoeping-white-wood"
+    },
+    {
+      "article": "705.059.40",
+      "role": "door",
+      "name": "ENKÖPING door, white wood effect",
+      "width_in": 15,
+      "height_in": 30,
+      "price_cad": 32,
+      "pack_qty": 1,
+      "style": "enkoeping-white-wood"
+    },
+    {
+      "article": "205.059.47",
+      "role": "door",
+      "name": "ENKÖPING door, white wood effect",
+      "width_in": 18,
+      "height_in": 30,
+      "price_cad": 40,
+      "pack_qty": 1,
+      "style": "enkoeping-white-wood"
+    },
+    {
+      "article": "805.059.54",
+      "role": "door",
+      "name": "ENKÖPING door, white wood effect",
+      "width_in": 24,
+      "height_in": 30,
+      "price_cad": 45,
+      "pack_qty": 1,
+      "style": "enkoeping-white-wood"
+    },
+    {
+      "article": "905.059.39",
+      "role": "door",
+      "name": "ENKÖPING door, white wood effect",
+      "width_in": 15,
+      "height_in": 20,
+      "price_cad": 21,
+      "pack_qty": 1,
+      "style": "enkoeping-white-wood"
+    },
+    {
+      "article": "405.059.46",
+      "role": "door",
+      "name": "ENKÖPING door, white wood effect",
+      "width_in": 18,
+      "height_in": 20,
+      "price_cad": 23,
+      "pack_qty": 1,
+      "style": "enkoeping-white-wood"
+    },
+    {
+      "article": "005.059.53",
+      "role": "door",
+      "name": "ENKÖPING door, white wood effect",
+      "width_in": 24,
+      "height_in": 20,
+      "price_cad": 32,
+      "pack_qty": 1,
+      "style": "enkoeping-white-wood"
+    },
+    {
+      "article": "305.059.37",
+      "role": "door",
+      "name": "ENKÖPING door, white wood effect",
+      "width_in": 12,
+      "height_in": 40,
+      "price_cad": 34,
+      "pack_qty": 1,
+      "style": "enkoeping-white-wood"
+    },
+    {
+      "article": "505.059.41",
+      "role": "door",
+      "name": "ENKÖPING door, white wood effect",
+      "width_in": 15,
+      "height_in": 40,
+      "price_cad": 42,
+      "pack_qty": 1,
+      "style": "enkoeping-white-wood"
+    },
+    {
+      "article": "005.059.48",
+      "role": "door",
+      "name": "ENKÖPING door, white wood effect",
+      "width_in": 18,
+      "height_in": 40,
+      "price_cad": 50,
+      "pack_qty": 1,
+      "style": "enkoeping-white-wood"
+    },
+    {
+      "article": "305.059.56",
+      "role": "door",
+      "name": "ENKÖPING door, white wood effect",
+      "width_in": 24,
+      "height_in": 40,
+      "price_cad": 59,
+      "pack_qty": 1,
+      "style": "enkoeping-white-wood"
+    },
+    {
+      "article": "605.167.17",
+      "role": "door",
+      "name": "ENKÖPING door, brown walnut effect",
+      "width_in": 12,
+      "height_in": 30,
+      "price_cad": 28,
+      "pack_qty": 1,
+      "style": "enkoeping-walnut"
+    },
+    {
+      "article": "805.167.21",
+      "role": "door",
+      "name": "ENKÖPING door, brown walnut effect",
+      "width_in": 15,
+      "height_in": 30,
+      "price_cad": 32,
+      "pack_qty": 1,
+      "style": "enkoeping-walnut"
+    },
+    {
+      "article": "505.167.27",
+      "role": "door",
+      "name": "ENKÖPING door, brown walnut effect",
+      "width_in": 18,
+      "height_in": 30,
+      "price_cad": 40,
+      "pack_qty": 1,
+      "style": "enkoeping-walnut"
+    },
+    {
+      "article": "105.167.34",
+      "role": "door",
+      "name": "ENKÖPING door, brown walnut effect",
+      "width_in": 24,
+      "height_in": 30,
+      "price_cad": 45,
+      "pack_qty": 1,
+      "style": "enkoeping-walnut"
+    },
+    {
+      "article": "005.167.20",
+      "role": "door",
+      "name": "ENKÖPING door, brown walnut effect",
+      "width_in": 15,
+      "height_in": 20,
+      "price_cad": 21,
+      "pack_qty": 1,
+      "style": "enkoeping-walnut"
+    },
+    {
+      "article": "705.167.26",
+      "role": "door",
+      "name": "ENKÖPING door, brown walnut effect",
+      "width_in": 18,
+      "height_in": 20,
+      "price_cad": 23,
+      "pack_qty": 1,
+      "style": "enkoeping-walnut"
+    },
+    {
+      "article": "305.167.33",
+      "role": "door",
+      "name": "ENKÖPING door, brown walnut effect",
+      "width_in": 24,
+      "height_in": 20,
+      "price_cad": 32,
+      "pack_qty": 1,
+      "style": "enkoeping-walnut"
+    },
+    {
+      "article": "405.167.18",
+      "role": "door",
+      "name": "ENKÖPING door, brown walnut effect",
+      "width_in": 12,
+      "height_in": 40,
+      "price_cad": 34,
+      "pack_qty": 1,
+      "style": "enkoeping-walnut"
+    },
+    {
+      "article": "605.167.22",
+      "role": "door",
+      "name": "ENKÖPING door, brown walnut effect",
+      "width_in": 15,
+      "height_in": 40,
+      "price_cad": 42,
+      "pack_qty": 1,
+      "style": "enkoeping-walnut"
+    },
+    {
+      "article": "305.167.28",
+      "role": "door",
+      "name": "ENKÖPING door, brown walnut effect",
+      "width_in": 18,
+      "height_in": 40,
+      "price_cad": 50,
+      "pack_qty": 1,
+      "style": "enkoeping-walnut"
+    },
+    {
+      "article": "805.167.35",
+      "role": "door",
+      "name": "ENKÖPING door, brown walnut effect",
+      "width_in": 24,
+      "height_in": 40,
+      "price_cad": 59,
+      "pack_qty": 1,
+      "style": "enkoeping-walnut"
+    },
+    {
+      "article": "905.877.89",
+      "role": "door",
+      "name": "HAVSTORP door, light gray",
+      "width_in": 12,
+      "height_in": 30,
+      "price_cad": 36,
+      "pack_qty": 1,
+      "style": "havstorp-light-gray"
+    },
+    {
+      "article": "105.877.93",
+      "role": "door",
+      "name": "HAVSTORP door, light gray",
+      "width_in": 15,
+      "height_in": 30,
+      "price_cad": 42,
+      "pack_qty": 1,
+      "style": "havstorp-light-gray"
+    },
+    {
+      "article": "405.878.00",
+      "role": "door",
+      "name": "HAVSTORP door, light gray",
+      "width_in": 18,
+      "height_in": 30,
+      "price_cad": 51,
+      "pack_qty": 1,
+      "style": "havstorp-light-gray"
+    },
+    {
+      "article": "905.878.07",
+      "role": "door",
+      "name": "HAVSTORP door, light gray",
+      "width_in": 24,
+      "height_in": 30,
+      "price_cad": 59,
+      "pack_qty": 1,
+      "style": "havstorp-light-gray"
+    },
+    {
+      "article": "305.877.92",
+      "role": "door",
+      "name": "HAVSTORP door, light gray",
+      "width_in": 15,
+      "height_in": 20,
+      "price_cad": 28,
+      "pack_qty": 1,
+      "style": "havstorp-light-gray"
+    },
+    {
+      "article": "805.877.99",
+      "role": "door",
+      "name": "HAVSTORP door, light gray",
+      "width_in": 18,
+      "height_in": 20,
+      "price_cad": 30,
+      "pack_qty": 1,
+      "style": "havstorp-light-gray"
+    },
+    {
+      "article": "105.878.06",
+      "role": "door",
+      "name": "HAVSTORP door, light gray",
+      "width_in": 24,
+      "height_in": 20,
+      "price_cad": 42,
+      "pack_qty": 1,
+      "style": "havstorp-light-gray"
+    },
+    {
+      "article": "705.877.90",
+      "role": "door",
+      "name": "HAVSTORP door, light gray",
+      "width_in": 12,
+      "height_in": 40,
+      "price_cad": 45,
+      "pack_qty": 1,
+      "style": "havstorp-light-gray"
+    },
+    {
+      "article": "905.877.94",
+      "role": "door",
+      "name": "HAVSTORP door, light gray",
+      "width_in": 15,
+      "height_in": 40,
+      "price_cad": 55,
+      "pack_qty": 1,
+      "style": "havstorp-light-gray"
+    },
+    {
+      "article": "205.878.01",
+      "role": "door",
+      "name": "HAVSTORP door, light gray",
+      "width_in": 18,
+      "height_in": 40,
+      "price_cad": 66,
+      "pack_qty": 1,
+      "style": "havstorp-light-gray"
+    },
+    {
+      "article": "705.878.08",
+      "role": "door",
+      "name": "HAVSTORP door, light gray",
+      "width_in": 24,
+      "height_in": 40,
+      "price_cad": 76,
+      "pack_qty": 1,
+      "style": "havstorp-light-gray"
+    },
+    {
+      "article": "605.763.96",
+      "role": "door",
+      "name": "HAVSTORP door, deep green",
+      "width_in": 12,
+      "height_in": 30,
+      "price_cad": 36,
+      "pack_qty": 1,
+      "style": "havstorp-deep-green"
+    },
+    {
+      "article": "605.764.00",
+      "role": "door",
+      "name": "HAVSTORP door, deep green",
+      "width_in": 15,
+      "height_in": 30,
+      "price_cad": 42,
+      "pack_qty": 1,
+      "style": "havstorp-deep-green"
+    },
+    {
+      "article": "105.764.07",
+      "role": "door",
+      "name": "HAVSTORP door, deep green",
+      "width_in": 18,
+      "height_in": 30,
+      "price_cad": 51,
+      "pack_qty": 1,
+      "style": "havstorp-deep-green"
+    },
+    {
+      "article": "705.764.14",
+      "role": "door",
+      "name": "HAVSTORP door, deep green",
+      "width_in": 24,
+      "height_in": 30,
+      "price_cad": 59,
+      "pack_qty": 1,
+      "style": "havstorp-deep-green"
+    },
+    {
+      "article": "005.763.99",
+      "role": "door",
+      "name": "HAVSTORP door, deep green",
+      "width_in": 15,
+      "height_in": 20,
+      "price_cad": 28,
+      "pack_qty": 1,
+      "style": "havstorp-deep-green"
+    },
+    {
+      "article": "305.764.06",
+      "role": "door",
+      "name": "HAVSTORP door, deep green",
+      "width_in": 18,
+      "height_in": 20,
+      "price_cad": 30,
+      "pack_qty": 1,
+      "style": "havstorp-deep-green"
+    },
+    {
+      "article": "905.764.13",
+      "role": "door",
+      "name": "HAVSTORP door, deep green",
+      "width_in": 24,
+      "height_in": 20,
+      "price_cad": 42,
+      "pack_qty": 1,
+      "style": "havstorp-deep-green"
+    },
+    {
+      "article": "405.763.97",
+      "role": "door",
+      "name": "HAVSTORP door, deep green",
+      "width_in": 12,
+      "height_in": 40,
+      "price_cad": 45,
+      "pack_qty": 1,
+      "style": "havstorp-deep-green"
+    },
+    {
+      "article": "405.764.01",
+      "role": "door",
+      "name": "HAVSTORP door, deep green",
+      "width_in": 15,
+      "height_in": 40,
+      "price_cad": 55,
+      "pack_qty": 1,
+      "style": "havstorp-deep-green"
+    },
+    {
+      "article": "905.764.08",
+      "role": "door",
+      "name": "HAVSTORP door, deep green",
+      "width_in": 18,
+      "height_in": 40,
+      "price_cad": 66,
+      "pack_qty": 1,
+      "style": "havstorp-deep-green"
+    },
+    {
+      "article": "405.764.15",
+      "role": "door",
+      "name": "HAVSTORP door, deep green",
+      "width_in": 24,
+      "height_in": 40,
+      "price_cad": 76,
+      "pack_qty": 1,
+      "style": "havstorp-deep-green"
+    },
+    {
+      "article": "302.663.19",
+      "role": "door",
+      "name": "BODBYN door, off-white",
+      "width_in": 12,
+      "height_in": 30,
+      "price_cad": 63,
+      "pack_qty": 1,
+      "style": "bodbyn-off-white"
+    },
+    {
+      "article": "502.663.23",
+      "role": "door",
+      "name": "BODBYN door, off-white",
+      "width_in": 15,
+      "height_in": 30,
+      "price_cad": 73,
+      "pack_qty": 1,
+      "style": "bodbyn-off-white"
+    },
+    {
+      "article": "202.663.29",
+      "role": "door",
+      "name": "BODBYN door, off-white",
+      "width_in": 18,
+      "height_in": 30,
+      "price_cad": 86,
+      "pack_qty": 1,
+      "style": "bodbyn-off-white"
+    },
+    {
+      "article": "502.663.37",
+      "role": "door",
+      "name": "BODBYN door, off-white",
+      "width_in": 24,
+      "height_in": 30,
+      "price_cad": 99,
+      "pack_qty": 1,
+      "style": "bodbyn-off-white"
+    },
+    {
+      "article": "702.663.22",
+      "role": "door",
+      "name": "BODBYN door, off-white",
+      "width_in": 15,
+      "height_in": 20,
+      "price_cad": 48,
+      "pack_qty": 1,
+      "style": "bodbyn-off-white"
+    },
+    {
+      "article": "402.663.28",
+      "role": "door",
+      "name": "BODBYN door, off-white",
+      "width_in": 18,
+      "height_in": 20,
+      "price_cad": 52,
+      "pack_qty": 1,
+      "style": "bodbyn-off-white"
+    },
+    {
+      "article": "702.663.36",
+      "role": "door",
+      "name": "BODBYN door, off-white",
+      "width_in": 24,
+      "height_in": 20,
+      "price_cad": 73,
+      "pack_qty": 1,
+      "style": "bodbyn-off-white"
+    },
+    {
+      "article": "102.663.20",
+      "role": "door",
+      "name": "BODBYN door, off-white",
+      "width_in": 12,
+      "height_in": 40,
+      "price_cad": 77,
+      "pack_qty": 1,
+      "style": "bodbyn-off-white"
+    },
+    {
+      "article": "302.663.24",
+      "role": "door",
+      "name": "BODBYN door, off-white",
+      "width_in": 15,
+      "height_in": 40,
+      "price_cad": 95,
+      "pack_qty": 1,
+      "style": "bodbyn-off-white"
+    },
+    {
+      "article": "002.663.30",
+      "role": "door",
+      "name": "BODBYN door, off-white",
+      "width_in": 18,
+      "height_in": 40,
+      "price_cad": 113,
+      "pack_qty": 1,
+      "style": "bodbyn-off-white"
+    },
+    {
+      "article": "302.663.38",
+      "role": "door",
+      "name": "BODBYN door, off-white",
+      "width_in": 24,
+      "height_in": 40,
+      "price_cad": 128,
+      "pack_qty": 1,
+      "style": "bodbyn-off-white"
+    },
+    {
+      "article": "103.559.29",
+      "role": "door",
+      "name": "LERHYTTAN door, black stained",
+      "width_in": 12,
+      "height_in": 30,
+      "price_cad": 90,
+      "pack_qty": 1,
+      "style": "lerhyttan-black"
+    },
+    {
+      "article": "303.559.33",
+      "role": "door",
+      "name": "LERHYTTAN door, black stained",
+      "width_in": 15,
+      "height_in": 30,
+      "price_cad": 100,
+      "pack_qty": 1,
+      "style": "lerhyttan-black"
+    },
+    {
+      "article": "003.559.39",
+      "role": "door",
+      "name": "LERHYTTAN door, black stained",
+      "width_in": 18,
+      "height_in": 30,
+      "price_cad": 130,
+      "pack_qty": 1,
+      "style": "lerhyttan-black"
+    },
+    {
+      "article": "303.559.47",
+      "role": "door",
+      "name": "LERHYTTAN door, black stained",
+      "width_in": 24,
+      "height_in": 30,
+      "price_cad": 155,
+      "pack_qty": 1,
+      "style": "lerhyttan-black"
+    },
+    {
+      "article": "503.559.32",
+      "role": "door",
+      "name": "LERHYTTAN door, black stained",
+      "width_in": 15,
+      "height_in": 20,
+      "price_cad": 77,
+      "pack_qty": 1,
+      "style": "lerhyttan-black"
+    },
+    {
+      "article": "203.559.38",
+      "role": "door",
+      "name": "LERHYTTAN door, black stained",
+      "width_in": 18,
+      "height_in": 20,
+      "price_cad": 92,
+      "pack_qty": 1,
+      "style": "lerhyttan-black"
+    },
+    {
+      "article": "503.559.46",
+      "role": "door",
+      "name": "LERHYTTAN door, black stained",
+      "width_in": 24,
+      "height_in": 20,
+      "price_cad": 118,
+      "pack_qty": 1,
+      "style": "lerhyttan-black"
+    },
+    {
+      "article": "903.559.30",
+      "role": "door",
+      "name": "LERHYTTAN door, black stained",
+      "width_in": 12,
+      "height_in": 40,
+      "price_cad": 107,
+      "pack_qty": 1,
+      "style": "lerhyttan-black"
+    },
+    {
+      "article": "103.559.34",
+      "role": "door",
+      "name": "LERHYTTAN door, black stained",
+      "width_in": 15,
+      "height_in": 40,
+      "price_cad": 130,
+      "pack_qty": 1,
+      "style": "lerhyttan-black"
+    },
+    {
+      "article": "803.559.40",
+      "role": "door",
+      "name": "LERHYTTAN door, black stained",
+      "width_in": 18,
+      "height_in": 40,
+      "price_cad": 152,
+      "pack_qty": 1,
+      "style": "lerhyttan-black"
+    },
+    {
+      "article": "103.559.48",
+      "role": "door",
+      "name": "LERHYTTAN door, black stained",
+      "width_in": 24,
+      "height_in": 40,
+      "price_cad": 190,
+      "pack_qty": 1,
+      "style": "lerhyttan-black"
+    },
+    {
+      "article": "306.014.96",
+      "role": "door",
+      "name": "LERHYTTAN door, blue",
+      "width_in": 12,
+      "height_in": 30,
+      "price_cad": 90,
+      "pack_qty": 1,
+      "style": "lerhyttan-blue"
+    },
+    {
+      "article": "206.015.00",
+      "role": "door",
+      "name": "LERHYTTAN door, blue",
+      "width_in": 15,
+      "height_in": 30,
+      "price_cad": 100,
+      "pack_qty": 1,
+      "style": "lerhyttan-blue"
+    },
+    {
+      "article": "906.015.06",
+      "role": "door",
+      "name": "LERHYTTAN door, blue",
+      "width_in": 18,
+      "height_in": 30,
+      "price_cad": 130,
+      "pack_qty": 1,
+      "style": "lerhyttan-blue"
+    },
+    {
+      "article": "506.015.13",
+      "role": "door",
+      "name": "LERHYTTAN door, blue",
+      "width_in": 24,
+      "height_in": 30,
+      "price_cad": 155,
+      "pack_qty": 1,
+      "style": "lerhyttan-blue"
+    },
+    {
+      "article": "706.014.99",
+      "role": "door",
+      "name": "LERHYTTAN door, blue",
+      "width_in": 15,
+      "height_in": 20,
+      "price_cad": 77,
+      "pack_qty": 1,
+      "style": "lerhyttan-blue"
+    },
+    {
+      "article": "106.015.05",
+      "role": "door",
+      "name": "LERHYTTAN door, blue",
+      "width_in": 18,
+      "height_in": 20,
+      "price_cad": 92,
+      "pack_qty": 1,
+      "style": "lerhyttan-blue"
+    },
+    {
+      "article": "706.015.12",
+      "role": "door",
+      "name": "LERHYTTAN door, blue",
+      "width_in": 24,
+      "height_in": 20,
+      "price_cad": 118,
+      "pack_qty": 1,
+      "style": "lerhyttan-blue"
+    },
+    {
+      "article": "106.014.97",
+      "role": "door",
+      "name": "LERHYTTAN door, blue",
+      "width_in": 12,
+      "height_in": 40,
+      "price_cad": 107,
+      "pack_qty": 1,
+      "style": "lerhyttan-blue"
+    },
+    {
+      "article": "006.015.01",
+      "role": "door",
+      "name": "LERHYTTAN door, blue",
+      "width_in": 15,
+      "height_in": 40,
+      "price_cad": 130,
+      "pack_qty": 1,
+      "style": "lerhyttan-blue"
+    },
+    {
+      "article": "706.015.07",
+      "role": "door",
+      "name": "LERHYTTAN door, blue",
+      "width_in": 18,
+      "height_in": 40,
+      "price_cad": 152,
+      "pack_qty": 1,
+      "style": "lerhyttan-blue"
+    },
+    {
+      "article": "306.015.14",
+      "role": "door",
+      "name": "LERHYTTAN door, blue",
+      "width_in": 24,
+      "height_in": 40,
+      "price_cad": 190,
+      "pack_qty": 1,
+      "style": "lerhyttan-blue"
+    },
+    {
+      "article": "204.260.83",
+      "role": "corner_door",
+      "name": "AXSTAD corner door set, matt white",
+      "width_in": 13,
+      "height_in": 30,
+      "price_cad": 100,
+      "pack_qty": 1,
+      "style": "axstad-white"
+    },
+    {
+      "article": "105.639.66",
+      "role": "corner_door",
+      "name": "AXSTAD corner door set, gray-green",
+      "width_in": 13,
+      "height_in": 30,
+      "price_cad": 100,
+      "pack_qty": 1,
+      "style": "axstad-gray-green"
+    },
+    {
+      "article": "302.733.34",
+      "role": "corner_door",
+      "name": "VOXTORP corner door set, matt white, left",
+      "width_in": 13,
+      "height_in": 30,
+      "price_cad": 100,
+      "pack_qty": 1,
+      "style": "voxtorp-matt-white",
+      "hand": "left",
+      "alternate_article": "902.819.96"
+    },
+    {
+      "article": "902.819.96",
+      "role": "corner_door",
+      "name": "VOXTORP corner door set, matt white, right",
+      "width_in": 13,
+      "height_in": 30,
+      "price_cad": 100,
+      "pack_qty": 1,
+      "style": "voxtorp-matt-white",
+      "hand": "right"
+    },
+    {
+      "article": "606.017.82",
+      "role": "corner_door",
+      "name": "VOXTORP corner door set, high-gloss dark gray-brown, left",
+      "width_in": 13,
+      "height_in": 30,
+      "price_cad": 100,
+      "pack_qty": 1,
+      "style": "voxtorp-gloss-dark",
+      "hand": "left",
+      "alternate_article": "406.017.83"
+    },
+    {
+      "article": "406.017.83",
+      "role": "corner_door",
+      "name": "VOXTORP corner door set, high-gloss dark gray-brown, right",
+      "width_in": 13,
+      "height_in": 30,
+      "price_cad": 100,
+      "pack_qty": 1,
+      "style": "voxtorp-gloss-dark",
+      "hand": "right"
+    },
+    {
+      "article": "705.059.59",
+      "role": "corner_door",
+      "name": "ENKÖPING corner door set, white wood effect",
+      "width_in": 13,
+      "height_in": 30,
+      "price_cad": 55,
+      "pack_qty": 1,
+      "style": "enkoeping-white-wood"
+    },
+    {
+      "article": "205.167.38",
+      "role": "corner_door",
+      "name": "ENKÖPING corner door set, brown walnut effect",
+      "width_in": 13,
+      "height_in": 30,
+      "price_cad": 55,
+      "pack_qty": 1,
+      "style": "enkoeping-walnut"
+    },
+    {
+      "article": "105.878.11",
+      "role": "corner_door",
+      "name": "HAVSTORP corner door set, light gray",
+      "width_in": 13,
+      "height_in": 30,
+      "price_cad": 72,
+      "pack_qty": 1,
+      "style": "havstorp-light-gray"
+    },
+    {
+      "article": "805.764.18",
+      "role": "corner_door",
+      "name": "HAVSTORP corner door set, deep green",
+      "width_in": 13,
+      "height_in": 30,
+      "price_cad": 72,
+      "pack_qty": 1,
+      "style": "havstorp-deep-green"
+    },
+    {
+      "article": "702.663.41",
+      "role": "corner_door",
+      "name": "BODBYN corner door set, off-white",
+      "width_in": 13,
+      "height_in": 30,
+      "price_cad": 123,
+      "pack_qty": 1,
+      "style": "bodbyn-off-white"
+    },
+    {
+      "article": "503.559.51",
+      "role": "corner_door",
+      "name": "LERHYTTAN corner door set, black stained",
+      "width_in": 13,
+      "height_in": 30,
+      "price_cad": 185,
+      "pack_qty": 1,
+      "style": "lerhyttan-black"
+    },
+    {
+      "article": "606.015.17",
+      "role": "corner_door",
+      "name": "LERHYTTAN corner door set, blue",
+      "width_in": 13,
+      "height_in": 30,
+      "price_cad": 185,
+      "pack_qty": 1,
+      "style": "lerhyttan-blue"
+    },
+    {
+      "article": "905.560.71",
+      "role": "leg",
+      "name": "SEKTION leg for cabinet",
+      "height_in": 4.5,
+      "price_cad": 10,
+      "pack_qty": 2
+    },
+    {
+      "article": "602.615.27",
+      "role": "suspension_rail",
+      "name": "SEKTION suspension rail, galvanized",
+      "length_in": 84,
+      "price_cad": 20,
+      "pack_qty": 1
+    },
+    {
+      "article": "602.668.17",
+      "role": "toe_kick",
+      "name": "FÖRBÄTTRA toe kick, white",
+      "length_in": 84,
+      "height_in": 4.5,
+      "price_cad": 30,
+      "pack_qty": 1
+    },
+    {
+      "article": "805.248.82",
+      "role": "hinge",
+      "name": "UTRUSTA hinge with damper, 110°",
+      "angle": 110,
+      "price_cad": 22,
+      "pack_qty": 2
+    },
+    {
+      "article": "104.272.62",
+      "role": "hinge",
+      "name": "UTRUSTA hinge with damper, 153°",
+      "angle": 153,
+      "price_cad": 25,
+      "pack_qty": 2
+    },
+    {
+      "article": "006.489.14",
+      "role": "cover_panel",
+      "name": "FÖRBÄTTRA cover panel, matt white",
+      "width_in": 15,
+      "height_in": 30.5,
+      "price_cad": 35,
+      "pack_qty": 1
+    },
+    {
+      "article": "105.678.32",
+      "role": "cover_panel",
+      "name": "FÖRBÄTTRA cover panel, matt white",
+      "width_in": 15,
+      "height_in": 32.5,
+      "price_cad": 33,
+      "pack_qty": 1
+    },
+    {
+      "article": "706.489.15",
+      "role": "cover_panel",
+      "name": "FÖRBÄTTRA cover panel, matt white",
+      "width_in": 15,
+      "height_in": 40.5,
+      "price_cad": 45,
+      "pack_qty": 1
+    },
+    {
+      "article": "905.678.33",
+      "role": "cover_panel",
+      "name": "FÖRBÄTTRA cover panel, matt white",
+      "width_in": 15,
+      "height_in": 42.5,
+      "price_cad": 40,
+      "pack_qty": 1
+    },
+    {
+      "article": "705.678.34",
+      "role": "cover_panel",
+      "name": "FÖRBÄTTRA cover panel, matt white",
+      "width_in": 15,
+      "height_in": 90,
+      "price_cad": 85,
+      "pack_qty": 1
+    },
+    {
+      "article": "405.678.35",
+      "role": "cover_panel",
+      "name": "FÖRBÄTTRA cover panel, matt white",
+      "width_in": 25,
+      "height_in": 30,
+      "price_cad": 50,
+      "pack_qty": 1
+    },
+    {
+      "article": "304.177.52",
+      "role": "cover_panel",
+      "name": "FÖRBÄTTRA cover panel, matt white",
+      "width_in": 26,
+      "height_in": 36,
+      "price_cad": 70,
+      "pack_qty": 1
+    },
+    {
+      "article": "205.678.36",
+      "role": "cover_panel",
+      "name": "FÖRBÄTTRA cover panel, matt white",
+      "width_in": 25,
+      "height_in": 80,
+      "price_cad": 110,
+      "pack_qty": 1
+    },
+    {
+      "article": "005.678.37",
+      "role": "cover_panel",
+      "name": "FÖRBÄTTRA cover panel, matt white",
+      "width_in": 25,
+      "height_in": 90,
+      "price_cad": 125,
+      "pack_qty": 1
+    },
+    {
+      "article": "104.177.53",
+      "role": "cover_panel",
+      "name": "FÖRBÄTTRA cover panel, matt white",
+      "width_in": 36,
+      "height_in": 96,
+      "price_cad": 195,
+      "pack_qty": 1
+    },
+    {
+      "article": "106.090.35",
+      "role": "worktop",
+      "name": "EKBACKEN countertop, white marble effect",
+      "length_in": 74,
+      "thickness_in": 1.125,
+      "price_cad": 99,
+      "pack_qty": 1
+    },
+    {
+      "article": "906.090.36",
+      "role": "worktop",
+      "name": "EKBACKEN countertop, white marble effect",
+      "length_in": 98,
+      "thickness_in": 1.125,
+      "price_cad": 119,
+      "pack_qty": 1
+    }
+  ]
+}
