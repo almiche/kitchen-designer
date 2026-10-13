@@ -14,6 +14,8 @@ A local kitchen planner for Canada SEKTION cabinets. Give it a measured room and
 - `bom.json`, a purchase list with IKEA.ca article numbers
 - `print/products.txt`, the cabinets and products named in every other file
 
+This planner is unofficial and is not affiliated with IKEA. IKEA, SEKTION, and the product names are trademarks of their owners. A design does not call the IKEA kitchen planner.
+
 ## Screenshots
 
 A photo-measured L kitchen with the dark gloss front. The column on the right names what that view is aimed at. Article numbers and prices are a Canada SEKTION snapshot, not a copy of the IKEA planner.
